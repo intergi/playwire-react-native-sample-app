@@ -16,6 +16,14 @@ end
 
 target 'rnsample' do
   config = use_native_modules!
+    
+  pod 'FirebaseCore', modular_headers: true
+  pod 'GoogleUtilities', modular_headers: true
+
+  pod 'Playwire/Total'
+  # OR
+  # Use this for Coppa
+  # pod 'Playwire/Coppa'
 
   use_react_native!(
     :path => config[:reactNativePath],
