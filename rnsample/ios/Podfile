@@ -21,8 +21,7 @@ target 'rnsample' do
   pod 'GoogleUtilities', modular_headers: true
 
   pod 'Playwire/Total'
-  # OR
-  # Use this for Coppa
+  # OR use the following for Coppa
   # pod 'Playwire/Coppa'
 
   use_react_native!(
