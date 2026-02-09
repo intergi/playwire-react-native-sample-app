@@ -6,7 +6,10 @@ export function InterstitialScreen({ route }: any) {
 
   useEffect(() => {
     if (adUnitName) {
-      Playwire.showInterstitial(adUnitName);
+      Playwire.addInterstitialLoadedEventListener(() => {
+        Playwire.showInterstitial(adUnitName);
+      });
+      Playwire.loadInterstitial(adUnitName);
     }
   }, [adUnitName]);
 

@@ -21,15 +21,6 @@ buildscript {
 allprojects {
     repositories {
         maven {
-            name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/intergi/playwire-android-binaries")
-            credentials {
-                username = 'USERNAME'
-                password = 'PASSWORD'
-            }
-        }
-
-        maven {
             url 'https://android-sdk.is.com/'
         }
         maven {
