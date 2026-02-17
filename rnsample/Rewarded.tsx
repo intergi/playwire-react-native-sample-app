@@ -6,7 +6,10 @@ export function RewardedScreen({ route }: any) {
 
   useEffect(() => {
     if (adUnitName) {
-      Playwire.showRewarded(adUnitName);
+      Playwire.addRewardedLoadedEventListener(() => {
+        Playwire.showRewarded(adUnitName);
+      });
+      Playwire.loadRewarded(adUnitName);
     }
   }, [adUnitName]);
 

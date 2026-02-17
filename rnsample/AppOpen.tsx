@@ -10,12 +10,10 @@ export function AppOpenScreen({ route }: any) {
 
   useEffect(() => {
     if (adUnitName) {
-      Playwire.getAppOpenAdReady(adUnitName, isReady => {
-        if (isReady) {
-          Playwire.showAppOpenAd(adUnitName);
-        }
+      Playwire.addAppOpenAdLoadedEventListener(() => {
+        Playwire.showAppOpenAd(adUnitName);
       });
-      Playwire.loadRewarded(adUnitName);
+      Playwire.loadAppOpenAd(adUnitName);
     }
   }, [adUnitName]);
 
