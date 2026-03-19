@@ -21,10 +21,10 @@ export function AdTypesScreen() {
     const publisherId = '1024407';
     const appId = Platform.OS === 'ios' ? '702' : '703';
 
-    if (__DEV__) {
-      Playwire.startConsoleLogger();
-      Playwire.setTest(true);
-    }
+    // Log SDK events to console.
+    Playwire.startConsoleLogger();
+    // Set to `true` to test your implementation with GAM test ads on real devices.
+    Playwire.setTest(false);
 
     // const globalTargeting = new PlaywireTargeting().add({
     //     'global_key': 'global_value'
