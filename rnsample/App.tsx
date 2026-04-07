@@ -8,9 +8,14 @@
 import { StatusBar, StyleSheet, useColorScheme, View } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { Navigation } from './Navigation.tsx';
+import * as Sentry from "@sentry/react-native";
 
 function App() {
   const isDarkMode = useColorScheme() === 'dark';
+  Sentry.init({
+    dsn: "https://examplePublicKey@o0.ingest.sentry.io/0",
+    sendDefaultPii: true,
+  });
 
   return (
     <SafeAreaProvider>
