@@ -5,7 +5,7 @@
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
-    "lint": "eslint .",
+    "lint": "eslint . && tsc --noEmit",
     "start": "react-native start",
     "test": "jest"
   },
@@ -15,7 +15,7 @@
     "react": "19.1.1",
     "react-native": "0.82.1",
     "react-native-screens": "^4.17.1",
-    "@intergi/react-native-playwire-sdk": "12.1.1"
+    "@intergi/react-native-playwire-sdk": "13.0.0-alpha.1"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",

@@ -22,7 +22,7 @@ export function AdTypesScreen() {
     const appId = Platform.OS === 'ios' ? '702' : '703';
 
     // Log SDK events to console.
-    Playwire.startConsoleLogger();
+    Playwire.setLogLevel("info");
     // Set to `true` to test your implementation with GAM test ads on real devices.
     Playwire.setTest(false);
 
