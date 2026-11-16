@@ -135,7 +135,7 @@ PODS:
     - OguryCore (= 2.2.1)
   - OMSDK_Ogury (1.5.7)
   - OpenWrapSDK (5.1.1)
-  - Playwire (13.2.0-alpha.3):
+  - Playwire (13.2.0):
     - AmazonPublisherServicesSDK (= 5.6.2)
     - AppLovinMediationAmazonAdMarketplaceAdapter (= 5.6.2.0)
     - AppLovinMediationByteDanceAdapter (= 8.2.1.0.0)
@@ -1563,8 +1563,8 @@ PODS:
     - React-RCTFBReactNativeSpec
     - ReactCommon/turbomodule/core
     - ReactNativeDependencies
-  - react-native-playwire-sdk (13.2.0-alpha.1):
-    - Playwire (= 13.2.0-alpha.3)
+  - react-native-playwire-sdk (13.2.0):
+    - Playwire (= 13.2.0)
     - React
   - react-native-safe-area-context (5.8.0):
     - hermes-engine
@@ -2443,7 +2443,7 @@ SPEC CHECKSUMS:
   OgurySdk: 88dbd08ec1404c8f2e0825ccaefe019173f41c71
   OMSDK_Ogury: 38a1f4c2237da6861909da9290dd1224ddeb3de4
   OpenWrapSDK: e6aaa2c0265c137bca1cd754ff23c8390bcead0d
-  Playwire: cad42dd32ba5c819569ea02bedd4b2c58366dced
+  Playwire: 660cfd26bfac1396f55fab63ef9ce2fffe5b7b53
   RCTDeprecation: af44b104091a34482596cd9bd7e8d90c4e9b4bd7
   RCTRequired: bb77b070f75f53398ce43c0aaaa58337cebe2bf6
   RCTSwiftUI: afc0a0a635860da1040a0b894bfd529da06d7810
@@ -2480,7 +2480,7 @@ SPEC CHECKSUMS:
   React-logger: b5521614afb8690420146dfc61a1447bb5d65419
   React-Mapbuffer: f4ee8c62e0ef8359d139124f35a471518a172cd3
   React-microtasksnativemodule: d1956f0eec54c619b63a379520fb4c618a55ccb9
-  react-native-playwire-sdk: 6525bcd0eaed58d1a580c734247220e132ccea5c
+  react-native-playwire-sdk: fa4ad4d3a62f781d162bb9d13e7079f950fb4904
   react-native-safe-area-context: 5727bd761ca52fa393b40989a6483bf859622136
   React-NativeModulesApple: 5ba0903927f6b8d335a091700e9fda143980f819
   React-networking: 3a4b7f9ed2b2d1c0441beacb79674323a24bcca6
