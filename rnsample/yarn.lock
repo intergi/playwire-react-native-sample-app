@@ -1078,10 +1078,10 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-2.0.3.tgz#4a2868d75d6d6963e423bcf90b7fd1be343409d3"
   integrity sha512-93zYdMES/c1D69yZiKDBj0V24vqNzB/koF26KPaagAfd3P/4gUlh3Dys5ogAK+Exi9QyzlD8x/08Zt7wIKcDcA==
 
-"@intergi/react-native-playwire-sdk@13.1.0":
-  version "13.1.0"
-  resolved "https://registry.npmjs.org/@intergi/react-native-playwire-sdk/-/react-native-playwire-sdk-13.1.0.tgz#652b6e446a7f86051f0ba2e1dc6703a6460ea008"
-  integrity sha512-asxnZeVzNeXnnXmOwvGrl4Vyke1ZVZN+PgOJhk1+R2x/cgw8i/zGXYlZDz2E4owG6CPgSGC7YaphFl+knJ7+pQ==
+"@intergi/react-native-playwire-sdk@13.2.0":
+  version "13.2.0"
+  resolved "https://registry.yarnpkg.com/@intergi/react-native-playwire-sdk/-/react-native-playwire-sdk-13.2.0.tgz#65f345be8352265ea0f38d8ad2c870ec6ee5b728"
+  integrity sha512-Y7OSmKrXEXsN13y1sj56pVzLDMtWaY1wFsvlq0q9uLC+7MwbWLm6nISTfyL/Lmr/TkydAv4jCmAz5oHKtXmGdw==
   dependencies:
     prop-types "^15.8.1"
 
